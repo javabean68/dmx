@@ -20,7 +20,7 @@ data class CounterUiState(
 
 class CounterViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(CounterUiState())
-    // Nur lesbar nach außen
+    // Nur lesbar nach außen - UDF - Immutable Objekte.
     val uiState: StateFlow<CounterUiState> = _uiState.asStateFlow()
 
     fun increment() = _uiState.update { it.copy(count = it.count + 1) }

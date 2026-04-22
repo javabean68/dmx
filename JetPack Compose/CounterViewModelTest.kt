@@ -4,6 +4,11 @@ import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
+//  Die Tests sind einfach definierbar eund verständlich ohne Jasmine Müll :D
+//  Turbine + `runTest` ist wirklich eine andere Welt verglichen mit dem ganzen `TestBed.configureTestingModule`,
+//  `fixture.detectChanges()`, `BehaviorSubject`-Mock-Gefrickel von Angular/Jasmine.
+//
+//Der Kotlin-Test liest sich fast wie Prosa, der Angular-Test wie Boilerplate-Archäologie. 😄
 class CounterViewModelTest {
 
     private val viewModel = CounterViewModel()
