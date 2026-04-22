@@ -1,0 +1,1 @@
+<content for counter.component.ts>

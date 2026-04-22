@@ -1,1 +1,1 @@
-// Add your spec content here
+<spec content for counter.component.spec.ts>
