@@ -1,1 +1,0 @@
-<spec content for counter.component.spec.ts>
