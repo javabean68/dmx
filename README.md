@@ -1,0 +1,7 @@
+Bei den 3 Folders habe ich ein paar Beispiele (geholfen durch Claude :P) abgelegt um darzustellen, was beim letzten Gespräch diskutiert wurde. Was mir bei Single Page Applications vor allem Sorge bereitet, ist wie der State verwaltet wird (zwischen GUI-Komponenten, GUI und Backend etc.) Hier wird eine einfache Komponente als Beispiel genommen. Es geht um einen Zähler, den man inkrementieren bzw. dekrementieren kann.
+
+In Angular basic state management habe ich versucht — vielleicht auch ein wenig übertrieben — die Hölle darzustellen, die entsteht, wenn man Signals/Observables nicht richtig anwendet. Ganz zu schweigen von @if/@else im Template, ViewChild-Direktiven, Decorators die noch in Angular 22 überleben etc.  Die Tests sind schwierig zu verstehen, weil 80% des Codes das Ziel hat, ein Scaffold aufzubauen. Das Ganze zu testen ist ein Alptraum.
+
+NgRx SignalStore möchte eine Idee liefern, wie man durch die Library ngrx.io/guide/signals/signal-store die Signals vernünftig organisieren könnte.
+
+Schließlich ist Jetpack Compose ein quasi Pseudocode-Beispiel, wie sich die Komponente durch Kotlin definieren lässt. Alles elegant: MVVM-Pattern, klarer UDF, Tests einfach zu entwickeln, angenehmes Debugging.
